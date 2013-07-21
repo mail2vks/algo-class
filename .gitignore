@@ -1,4 +1,9 @@
+out
 *.class
+build
+.gradle
+*.ipr
+*.iws
 
 # Package Files #
 *.jar
