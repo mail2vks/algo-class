@@ -9,3 +9,6 @@ build
 *.jar
 *.war
 *.ear
+
+# Big file for assignment4
+SCC.txt
