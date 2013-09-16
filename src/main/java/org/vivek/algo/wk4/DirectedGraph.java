@@ -80,7 +80,7 @@ public class DirectedGraph {
 
 	private static void computeLeadersOnOriginalGraph() {
 		List nodeList = new ArrayList(nodes.values());
-		Collections.sort(nodeList, NodeComparators.getFinishIndexComparatorDecending());
+		Collections.sort(nodeList, NodeComparators.getFinishIndexComparatorDescending());
 		//logger.info("Node List:" + nodeList);
 		dfsLoop(graphAdjList, nodeList);
 		//logger.info("Node Map:" + nodes);

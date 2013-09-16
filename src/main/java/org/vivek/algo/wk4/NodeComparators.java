@@ -11,7 +11,7 @@ public class NodeComparators {
 		}
 	};
 
-	public static Comparator getFinishIndexComparatorDecending() {
+	public static Comparator getFinishIndexComparatorDescending() {
 		return onFinishIndexDescending;
 	}
 
